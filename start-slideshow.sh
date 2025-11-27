@@ -12,4 +12,4 @@ PHOTO_PATH="/home/slideshow/photos"
 LOGO_PATH="/home/slideshow/slideshow/bhack.png"
 
 # Run the slideshow with uv
-uv run --with pygame slideshow.py "$USB_PATH" "$PHOTO_PATH"
+uv run --with pygame slideshow.py "$PHOTO_PATH" "$LOGO_PATH"
