@@ -11,9 +11,9 @@ Created for a specific purpose, probably doesn't suit your needs but it suits mi
 
 ## Installing on a fresh Raspberry Pi
 
-Use the Raspberry Pi Imager to put "Raspberry Pi OS Lite (64-bit)" (or the full OS if you want the desktop too) onto a MicroSD card, set up WiFi/SSH/etc.
+Use the Raspberry Pi Imager to put "Raspberry Pi OS (64-bit)" onto a MicroSD card, set up WiFi/SSH/etc.
 
-SSH into the Pi.
+SSH into the Pi or connect keyboard and monitor.
 
 Install git:
 `sudo apt-get install git`
@@ -39,6 +39,6 @@ Create an autostart file:
 `nano ~/.config/lxsession/LXDE-pi/autostart`
 
 Add this line:
-`@/home/slideshow/slideshow/start_slideshow.sh`
+`@/home/slideshow/slideshow/start-slideshow.sh`
 
 Reboot.

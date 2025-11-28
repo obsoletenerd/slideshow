@@ -15,9 +15,9 @@ import time
 import colorsys
 
 # Configuration
-SLIDESHOW_DELAY = 5  # seconds between photos
+SLIDESHOW_DELAY = 10  # seconds between photos
 LOGO_SIZE = (150, 150)  # Adjust based on your logo
-LOGO_SPEED = 2  # pixels per frame
+LOGO_SPEED = 5  # pixels per frame
 FPS = 60
 RAINBOW_SPEED = 0.5  # How fast the rainbow cycles (degrees per frame)
 
